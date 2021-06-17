@@ -6,7 +6,7 @@ import Icons from './Icons'
 const Container = styled.div`
 width: 100%;
 height: 100%;
-background-color: #00173D;
+/* background-color: #00173D; */
 `
 
 const H1 = styled.h1`
@@ -18,7 +18,7 @@ width: 100%;
 height: 100%;
 `
 
-const Holder = () => {
+const Card = () => {
     return(
         <Container alt="holder-content">
             <H1>Discover new book</H1>
@@ -29,4 +29,4 @@ const Holder = () => {
     )
 }
 
-export default Holder
+export default Card

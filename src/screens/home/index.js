@@ -2,38 +2,47 @@ import React from 'react'
 import styled from 'styled-components'
 
 import SearchInput from '../../components/SeachInput'
-import Holder from './../../components/Holder'
+import SliderCard from '../../components/Slider'
 
 const Container = styled.div`
 width: 100%;
 height: 100vh;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
 background-color: #F2F2F2;
 `
 
 const Content = styled.div`
+width: 100%;
 display: flex;
 flex-direction: column;
 align-items: center;
-width: calc(100% - 10%);
-height: calc(100% - 2%);
+/* background-color: red; */
+`
+
+const Group = styled.div`
+display: flex;
+flex-direction: column;
+align-items: center;
+width: calc(100% - 20%);
+/* background-color: blue; */
 `
 
 const Text = styled.div`
 display: flex;
 justify-content: flex-start;
-width: calc(100% - 10%);
-height: calc(100% - 2%);
-/* padding: 1rem 0; */
+width: calc(100% - 20%);
+/* background-color: yellow; */
 `
 
 const H1 = styled.h1`
-font-size: 20px;
-font-weight: 400;
+font-size: 24px;
+font-weight: 600;
+font-family: "SF Pro Display";
 color: #54565A;
+
+    span {
+        color: #FF6978;
+    }
+
 `
 
 function Home() {
@@ -41,19 +50,15 @@ function Home() {
     return(
         <Container alt="home-container">
             <Content alt="home-content">
-                <SearchInput />
-            </Content>
-            <Text alt="home-identity">
-                <H1>Hi, Mehmed Al Fatih<span>icon</span></H1>
-            </Text>
-            <Content alt="home-content">
-                <Holder></Holder>
-            </Content>
-            <Content alt="home-content">
-                <Holder></Holder>
-            </Content>
-            <Content alt="home-content">
-                <Holder></Holder>
+                <Group alt="home-Group">
+                    <SearchInput />
+                </Group>
+                <Text alt="home-identity">
+                    <H1>Hi, <span>Mehmed Al Fatih</span> 👋</H1>
+                </Text>
+                <Group alt="home-Group">
+                    <SliderCard></SliderCard>
+                </Group>
             </Content>
         </Container>
     )

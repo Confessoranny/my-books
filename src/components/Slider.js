@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
+import React from "react";
+import Slider from "react-slick"; 
+import "./../css/slick/slick-theme.css";
+import "./../css/slick/slick.css";
 import styled from 'styled-components'
 
 import ImageComponent from './ImageComponent'
@@ -26,13 +26,17 @@ margin: 0 10px;
 
   h1 {
     font-size: 18px;
-    line-height: 16px;
     letter-spacing: 0.5px;
+    font-weight: 600;
     color: #3F4043;
+    font-family: 'SFProDisplay';
+    line-height: 21px;
   }
 
   p {
-    font-size: 14px;
+    font-size: 16px;
+    font-family: 'SFProText';
+    font-weight: 400;
     line-height: 16px;
     color: #4ABDF1;
 

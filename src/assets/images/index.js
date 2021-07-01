@@ -5,6 +5,7 @@ import wallpaper from './wallpaper.jpeg'
 import verao from './verao.jpeg'
 import city from './city.jpeg'
 import cyberpunk from './cyberpunk.jpeg'
+import home from './home.svg'
 
 export default {
     lupa,
@@ -13,5 +14,6 @@ export default {
     wallpaper,
     verao,
     city,
-    cyberpunk
+    cyberpunk,
+    home
 }

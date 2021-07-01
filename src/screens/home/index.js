@@ -5,10 +5,12 @@ import ImageComponent from '../../components/ImageComponent'
 import SearchInput from '../../components/SeachInput'
 import SliderCard from '../../components/Slider'
 import Card from './../../components/Card'
+import Menu from './../../components/Menu'
 
 const Container = styled.div`
 width: 100%;
-height: 100vh;
+/* height: 1000vh; */
+/* background-color: yellow; */
 `
 
 const Content = styled.div`
@@ -16,7 +18,7 @@ width: 100%;
 display: flex;
 flex-direction: column;
 align-items: center;
-background-color: #F2F2F2;
+background-color: ##F2F2F2;
 `
 
 const Group = styled.div`
@@ -49,6 +51,15 @@ color: #54565A;
 
 function Home() {
 
+    const texts = [
+        {
+            firstTitle: "Current reading"
+        },
+        {
+            secondTitle: "Reviews of The Days"
+        }
+    ]
+
     return(
         <Container alt="home-container">
             <Content alt="home-content">
@@ -62,11 +73,20 @@ function Home() {
                     <SliderCard></SliderCard>
                 </Group>
                 <Group alt="home-group">
-                    <Card value="verao"></Card>
+                    <Card value="verao" text={texts.map(texts => {
+                        return(
+                            texts.firstTitle
+                            )
+                    })}></Card>
                 </Group>
                 <Group alt="home-group">
-                    <Card value="wallpaper"></Card>
+                    <Card value="wallpaper" text={texts.map(texts => {
+                        return(
+                            texts.secondTitle
+                        )
+                    })}></Card>
                 </Group>
+                <Menu></Menu>
             </Content>
         </Container>
     )

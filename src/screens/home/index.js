@@ -9,8 +9,6 @@ import Menu from './../../components/Menu'
 
 const Container = styled.div`
 width: 100%;
-/* height: 1000vh; */
-/* background-color: yellow; */
 `
 
 const Content = styled.div`
@@ -18,7 +16,7 @@ width: 100%;
 display: flex;
 flex-direction: column;
 align-items: center;
-background-color: ##F2F2F2;
+background-color: #F2F2F2;
 `
 
 const Group = styled.div`
@@ -27,14 +25,12 @@ flex-direction: column;
 align-items: center;
 width: calc(100% - 20%);
 margin-bottom: 30px;
-/* background-color: blue; */
 `
 
 const Text = styled.div`
 display: flex;
 justify-content: flex-start;
 width: calc(100% - 20%);
-/* background-color: yellow; */
 `
 
 const H1 = styled.h1`

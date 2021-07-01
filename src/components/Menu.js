@@ -22,7 +22,6 @@ align-items: center;
     font-size: 15px;
     font-weight: 400;
     color: #313131;
-    background-color: #FFFFFF;
  }
 `
 
@@ -35,11 +34,11 @@ const Menu = () => {
                 <p>Home</p>
             </Group>
             <Group alt="menu-group">
-                <ImageComponent image="home"></ImageComponent>
+                <ImageComponent image="book"></ImageComponent>
                 <p>Libraries</p>
             </Group>
             <Group alt="menu-group">
-                <ImageComponent image="home"></ImageComponent>
+                <ImageComponent image="user"></ImageComponent>
                 <p>Profile</p>
             </Group>
         </Container>

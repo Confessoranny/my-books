@@ -27,7 +27,7 @@ h1 {
   p {
     font-size: 16px;
     font-family: 'SFProText';
-    font-weight: 400;
+    font-weight: 600;
     line-height: 16px;
     color: #4ABDF1;
 

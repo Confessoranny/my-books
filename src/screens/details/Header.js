@@ -1,20 +1,28 @@
 import React from 'react'
 import styled from 'styled-components'
-import ImageComponent from '../../components/ImageComponent'
+import ImageComponent, {Figure} from '../../components/ImageComponent'
 
 const Container = styled.div`
 width: 100%;
+height: 100%;
 display: flex;
-justify-content: space-between;
 background-color: #FFF6E5;
+/* background-color: blue; */
 `
 
 const Img = styled.div`
+width: 2rem;
+height: 6rem;
 display: flex;
 flex-direction: column;
 justify-content: flex-end;
-height: 7rem;
-margin-left: 2rem;
+/* background-color: yellow; */
+
+    ${Figure} {
+        height: calc(100% - 50%);
+        margin-left: 3rem;
+        /* background-color: red; */
+    }
 `
 
 const Header = () => {

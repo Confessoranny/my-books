@@ -9,6 +9,7 @@ import home from './home.png'
 import user from './user.png'
 import book from './book.png'
 import bitmap from './bitmap.svg'
+import leftArrow from './left-arrow.png'
 
 export default {
     lupa,
@@ -21,5 +22,6 @@ export default {
     home,
     user,
     book,
-    bitmap
+    bitmap,
+    leftArrow
 }

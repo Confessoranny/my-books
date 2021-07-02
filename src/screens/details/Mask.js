@@ -17,15 +17,15 @@ align-items: center;
 
 const Mask = styled.div`
 width: 100%;
-height: 40vh;
+height: 30vh;
 display: flex;
 justify-content: center;
 border-bottom-right-radius: 100px;
 background-color: #FFF6E5;
 
     ${Figure} {
-        margin-top: 7rem;
-        height: calc(100% - 20%);
+        margin-top: 2rem;
+        /* height: calc(100% - 10%); */
     }
 `
 

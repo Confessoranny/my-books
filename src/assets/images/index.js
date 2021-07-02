@@ -8,6 +8,7 @@ import cyberpunk from './cyberpunk.jpeg'
 import home from './home.png'
 import user from './user.png'
 import book from './book.png'
+import bitmap from './bitmap.svg'
 
 export default {
     lupa,
@@ -19,5 +20,6 @@ export default {
     cyberpunk,
     home,
     user,
-    book
+    book,
+    bitmap
 }

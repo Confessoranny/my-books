@@ -11,7 +11,7 @@ background-color: #FFF6E5;
 `
 
 const Img = styled.div`
-width: 2rem;
+width: 1.5rem;
 height: 6rem;
 display: flex;
 flex-direction: column;

@@ -1,0 +1,1 @@
+export const GOOGLE_API_URL = 'https://www.googleapis.com/apiName/apiVersion/resourcePath?parameters'

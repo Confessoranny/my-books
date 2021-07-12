@@ -19,6 +19,7 @@ export const BaseStyles = createGlobalStyle`
     font-family: "Nunito", sans-serif;
     font-weight: 500;
     font-size: 14px !important;
+    padding: 0;
   }
 
   * {
